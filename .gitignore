@@ -172,3 +172,24 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+# Python
+__pycache__/
+*.py[cod]
+*.swp
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+env/
+
+# Data files
+data/raw/
+data/processed/
+models/
+
+# IDE
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
